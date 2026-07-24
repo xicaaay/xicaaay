@@ -23,7 +23,6 @@ const profile = {
   name: "Amilcar Xicay",
   role: "Desarrollador Web Full Stack",
   experience: "2 años",
-  location: "Guatemala, Guatemala",
   portfolio: "https://xicay.dev"
 }
 ```
