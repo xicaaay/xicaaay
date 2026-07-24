@@ -1,0 +1,65 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090B0C"/>
+      <stop offset="1" stop-color="#111415"/>
+    </linearGradient>
+    <radialGradient id="accentGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(935 212) rotate(90) scale(180)">
+      <stop stop-color="#469DF4" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#469DF4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" stroke="#1C2224" stroke-width="1"/>
+    </pattern>
+    <filter id="eyeGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="430" rx="30" fill="url(#surface)"/>
+  <rect width="1200" height="430" rx="30" fill="url(#grid)" opacity="0.72"/>
+  <rect x="1" y="1" width="1198" height="428" rx="29" stroke="#303638" stroke-width="2"/>
+
+  <text x="56" y="58" fill="#469DF4" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3">
+    GITHUB PROFILE // FULL STACK DEVELOPMENT
+  </text>
+
+  <text x="52" y="168" fill="#F3F4EF" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="92" font-weight="900" letter-spacing="-5">
+    AMILCAR
+  </text>
+  <text x="52" y="252" fill="#F3F4EF" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="92" font-weight="900" letter-spacing="-5">
+    XICAY
+  </text>
+
+  <text x="58" y="305" fill="#A8ADAE" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">
+    Desarrollador Web Full Stack
+  </text>
+  <text x="58" y="344" fill="#73797B" font-family="Arial, Helvetica, sans-serif" font-size="18">
+    Frontend · Backend · APIs · Datos · Automatización · Deploy
+  </text>
+
+  <rect x="56" y="377" width="465" height="2" rx="1" fill="#303638"/>
+  <rect x="56" y="377" width="156" height="2" rx="1" fill="#469DF4"/>
+
+  <rect x="804" y="48" width="340" height="334" rx="36" fill="#050606" stroke="#303638" stroke-width="2"/>
+  <rect x="804" y="48" width="340" height="334" rx="36" fill="url(#accentGlow)"/>
+
+  <path d="M838 82H904" stroke="#F3F4EF" stroke-width="3"/>
+  <path d="M838 82V148" stroke="#F3F4EF" stroke-width="3"/>
+  <path d="M1110 348H1044" stroke="#F3F4EF" stroke-width="3"/>
+  <path d="M1110 348V282" stroke="#F3F4EF" stroke-width="3"/>
+
+  <ellipse cx="974" cy="317" rx="85" ry="12" fill="#469DF4" opacity="0.08"/>
+  <circle cx="974" cy="214" r="92" fill="#171A1B" stroke="#F3F4EF" stroke-width="4"/>
+  <circle cx="974" cy="214" r="83" stroke="#303638" stroke-width="1"/>
+  <rect x="929" y="185" width="23" height="58" rx="12" fill="#469DF4" filter="url(#eyeGlow)"/>
+  <rect x="996" y="185" width="23" height="58" rx="12" fill="#469DF4" filter="url(#eyeGlow)"/>
+
+  <text x="876" y="365" fill="#73797B" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2">
+    XICAY.DEV
+  </text>
+</svg>
