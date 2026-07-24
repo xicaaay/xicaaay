@@ -10,7 +10,7 @@
 
 <br />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=700&color=469DF4&background=090B0C00&center=true&vCenter=true&repeat=true&width=980&height=72&lines=const+developer+%3D+%22Amilcar+Xicay%22%3B;Full+Stack+Developer%3B;APIs+%7C+Backend+%7C+Frontend+%7C+Automatizaci%C3%B3n%3B;portfolio%3A+https%3A%2F%2Fxicay.dev)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=650&pause=120&color=469DF4&background=090B0C00&center=true&vCenter=true&repeat=true&width=980&height=72&lines=const+developer+%3D+%22Amilcar+Xicay%22%3B;Full+Stack+Developer%3B;APIs+%7C+Backend+%7C+Frontend+%7C+Automatizaci%C3%B3n%3B;portfolio%3A+https%3A%2F%2Fxicay.dev)](https://git.io/typing-svg)
 
 </div>
 
@@ -107,16 +107,18 @@ anteriores:
 > Construyo interfaces responsivas y componentes reutilizables.
 ```
 
-## `05. Forma de trabajo`
+## `05. Skills`
 
-```md
-- Analizo el problema antes de definir la solución.
-- Organizo el desarrollo por módulos y responsabilidades.
-- Priorizo código mantenible, validado y fácil de escalar.
-- Documento configuraciones, endpoints y procesos importantes.
-- Trabajo de forma colaborativa y me adapto a nuevos requerimientos.
-- Mantengo una mentalidad de aprendizaje y mejora continua.
-```
+| Habilidad | Aplicación profesional |
+|---|---|
+| Resolución de problemas | Competente para analizar situaciones, identificar causas y proponer soluciones prácticas |
+| Pensamiento lógico y analítico | Capacidad para estructurar procesos, comprender dependencias y tomar decisiones técnicas |
+| Aprendizaje continuo | Facilidad para aprender nuevas tecnologías, herramientas y metodologías de trabajo |
+| Adaptabilidad | Capacidad para responder a cambios de requerimientos, prioridades y contextos de desarrollo |
+| Responsabilidad y autonomía | Organización para gestionar tareas, cumplir objetivos y avanzar con independencia |
+| Proactividad | Iniciativa para detectar mejoras, anticipar necesidades y proponer nuevas soluciones |
+| Trabajo colaborativo | Comunicación clara y disposición para coordinar con equipos técnicos y no técnicos |
+| Organización y documentación | Capacidad para estructurar módulos, registrar procesos y documentar configuraciones importantes |
 
 ## `06. Actividad en GitHub`
 
@@ -147,27 +149,24 @@ anteriores:
 
 ## `07. Formación`
 
-```json
-{
-  "universidad": "Universidad Mariano Gálvez",
-  "carrera": "Ingeniería en Sistemas de Información y Ciencias de la Computación",
-  "estado": "En curso",
-  "nivel_anterior": "Bachillerato en Ciencias y Letras con orientación en Computación",
-  "instituto": "Instituto Tecnológico Dr. Theo Bloem",
-  "periodo": "2023 - 2024"
-}
-```
+### Ingeniería en Sistemas de Información y Ciencias de la Computación
+
+**Universidad Mariano Gálvez**  
+En curso
+
+### Bachillerato en Ciencias y Letras con orientación en Computación
+
+**Instituto Tecnológico Dr. Theo Bloem**  
+2023 - 2024
 
 ## `08. Contacto`
 
-```ts
-const contact = {
-  portfolio: "https://xicay.dev",
-  github: "https://github.com/xicaaay",
-  email: "amilcar.xicay@indevelop.net",
-  location: "Guatemala, Guatemala"
-}
-```
+| Canal | Información |
+|---|---|
+| Portafolio | [xicay.dev](https://xicay.dev) |
+| GitHub | [github.com/xicaaay](https://github.com/xicaaay) |
+| Correo | [amilcar.xicay@indevelop.net](mailto:amilcar.xicay@indevelop.net) |
+| Ubicación | Guatemala, Guatemala |
 
 ---
 
