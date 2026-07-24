@@ -5,24 +5,38 @@
 <br />
 
 [![Portafolio](https://img.shields.io/badge/PORTAFOLIO-XICAY.DEV-090B0C?style=for-the-badge&logo=vercel&logoColor=F3F4EF)](https://xicay.dev)
-[![GitHub](https://img.shields.io/badge/GITHUB-XICAaAY-090B0C?style=for-the-badge&logo=github&logoColor=F3F4EF)](https://github.com/xicaaay)
+[![GitHub](https://img.shields.io/badge/GITHUB-XICAAAY-090B0C?style=for-the-badge&logo=github&logoColor=F3F4EF)](https://github.com/xicaaay)
 [![Correo](https://img.shields.io/badge/CORREO-CONTACTAR-469DF4?style=for-the-badge&logo=gmail&logoColor=FFFFFF)](mailto:amilcar.xicay@indevelop.net)
+
+<br />
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=700&color=469DF4&background=090B0C00&center=true&vCenter=true&repeat=true&width=980&height=72&lines=const+developer+%3D+%22Amilcar+Xicay%22%3B;Full+Stack+Developer%3B;APIs+%7C+Backend+%7C+Frontend+%7C+Automatizaci%C3%B3n%3B;portfolio%3A+https%3A%2F%2Fxicay.dev)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## Perfil profesional
+## `01. Sobre mí`
+
+```ts
+const profile = {
+  name: "Amilcar Xicay",
+  role: "Desarrollador Web Full Stack",
+  experience: "2 años",
+  location: "Guatemala, Guatemala",
+  portfolio: "https://xicay.dev"
+}
+```
 
 Soy desarrollador de software con dos años de experiencia en el diseño, planificación y desarrollo integral de sistemas. Me especializo en la construcción de lógica backend, diseño de APIs e integración con plataformas y servicios de terceros.
 
-He participado en todo el ciclo de desarrollo: análisis de requerimientos, definición de arquitectura, diseño de interfaces, implementación, integración, despliegue y mantenimiento. Mi enfoque es construir soluciones completas, mantenibles y orientadas a resolver necesidades reales.
+He participado en todo el ciclo de desarrollo: análisis de requerimientos, arquitectura, diseño de interfaces, implementación, integración, despliegue y mantenimiento. Mi enfoque es construir soluciones completas, mantenibles y orientadas a resolver necesidades reales.
 
-```txt
-Frontend -> API -> Lógica de negocio -> Base de datos -> Integraciones -> Deploy
+```bash
+frontend -> api -> lógica de negocio -> base de datos -> integraciones -> deploy
 ```
 
-## Áreas de experiencia
+## `02. Áreas de experiencia`
 
 | Área | Enfoque |
 |---|---|
@@ -33,7 +47,7 @@ Frontend -> API -> Lógica de negocio -> Base de datos -> Integraciones -> Deplo
 | Infraestructura | Railway, Docker, variables de entorno, despliegues y mantenimiento de entornos |
 | Experiencia de usuario | Interfaces responsivas, componentes reutilizables, estados, validaciones y mejora continua |
 
-## Tecnologías y herramientas
+## `03. Tecnologías y herramientas`
 
 <div align="center">
 
@@ -68,78 +82,95 @@ Frontend -> API -> Lógica de negocio -> Base de datos -> Integraciones -> Deplo
 
 </div>
 
-## Experiencia profesional
+## `04. Experiencia profesional`
 
-<table>
-  <tr>
-    <td width="28%"><strong>Feb. 2026 — Actualidad</strong></td>
-    <td>
-      <strong>Desarrollador Web Full Stack</strong><br />
-      Code Crypto Marketing<br /><br />
-      Desarrollo aplicaciones completas y plataformas internas, desde la interfaz hasta la lógica de negocio y la base de datos. Diseño APIs REST, integro servicios externos y automatizo flujos que conectan sistemas, datos y equipos de trabajo.
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Nov. 2024 — Feb. 2026</strong></td>
-    <td>
-      <strong>Desarrollador Web Jr.</strong><br />
-      Code Crypto Marketing<br /><br />
-      Desarrollé y mantuve interfaces web responsivas, componentes reutilizables y flujos conectados con APIs. Participé en soluciones digitales para marcas nacionales e internacionales.
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Sep. 2024 — Nov. 2024</strong></td>
-    <td>
-      <strong>Becario de Ingeniería de Software</strong><br />
-      Code Crypto Marketing<br /><br />
-      Apoyé la evaluación de herramientas tecnológicas, la creación de pruebas de concepto y la implementación de automatizaciones y flujos conversacionales.
-    </td>
-  </tr>
-</table>
+```yaml
+actual:
+  puesto: Desarrollador Web Full Stack
+  empresa: Code Crypto Marketing
+  periodo: Feb. 2026 - Actualidad
 
-## Forma de trabajo
+anteriores:
+  - puesto: Desarrollador Web Jr.
+    empresa: Code Crypto Marketing
+    periodo: Nov. 2024 - Feb. 2026
 
+  - puesto: Becario de Ingeniería de Software
+    empresa: Code Crypto Marketing
+    periodo: Sep. 2024 - Nov. 2024
+```
+
+```txt
+> Desarrollo aplicaciones completas y plataformas internas.
+> Diseño APIs REST e integro servicios externos.
+> Automatizo flujos que conectan sistemas, datos y equipos.
+> Construyo interfaces responsivas y componentes reutilizables.
+```
+
+## `05. Forma de trabajo`
+
+```md
 - Analizo el problema antes de definir la solución.
 - Organizo el desarrollo por módulos y responsabilidades.
 - Priorizo código mantenible, validado y fácil de escalar.
 - Documento configuraciones, endpoints y procesos importantes.
 - Trabajo de forma colaborativa y me adapto a nuevos requerimientos.
 - Mantengo una mentalidad de aprendizaje y mejora continua.
+```
 
-## Actividad en GitHub
+## `06. Actividad en GitHub`
 
 <div align="center">
 
-<img src="./assets/contribution-motion.gif" alt="Personaje animado saltando sobre una cuadrícula de contribuciones" width="100%" />
+<img src="./assets/contribution-name-v2.gif" alt="Animación del nombre dentro de un panel de contribuciones" width="100%" />
+
+</div>
+
+### Estadísticas
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=xicaaay&theme=github_dark" alt="Resumen de actividad de GitHub" width="100%" />
+
+<br />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=xicaaay&theme=github_dark" alt="Estadísticas generales de GitHub" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=xicaaay&theme=github_dark" alt="Repositorios por lenguaje" width="49%" />
 
 <br />
 
 [![Seguidores](https://img.shields.io/github/followers/xicaaay?style=for-the-badge&logo=github&label=SEGUIDORES&labelColor=090B0C&color=469DF4)](https://github.com/xicaaay?tab=followers)
-[![Ver actividad](https://img.shields.io/badge/ACTIVIDAD-VER_EN_GITHUB-469DF4?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/xicaaay)
+[![Perfil](https://img.shields.io/badge/VER_PERFIL-GITHUB-090B0C?style=for-the-badge&logo=github&logoColor=F3F4EF)](https://github.com/xicaaay)
+[![Portafolio](https://img.shields.io/badge/VER_PORTAFOLIO-XICAY.DEV-469DF4?style=for-the-badge&logo=vercel&logoColor=FFFFFF)](https://xicay.dev)
 
 </div>
 
-> La animación es un recurso visual inspirado en el mapa de contribuciones. La actividad actual puede consultarse directamente en el perfil de GitHub.
+## `07. Formación`
 
-## Formación
+```json
+{
+  "universidad": "Universidad Mariano Gálvez",
+  "carrera": "Ingeniería en Sistemas de Información y Ciencias de la Computación",
+  "estado": "En curso",
+  "nivel_anterior": "Bachillerato en Ciencias y Letras con orientación en Computación",
+  "instituto": "Instituto Tecnológico Dr. Theo Bloem",
+  "periodo": "2023 - 2024"
+}
+```
 
-**Ingeniería en Sistemas de Información y Ciencias de la Computación**  
-Universidad Mariano Gálvez · En curso
+## `08. Contacto`
 
-**Bachillerato en Ciencias y Letras con orientación en Computación**  
-Instituto Tecnológico Dr. Theo Bloem · 2023 - 2024
-
-## Contacto
-
-- Portafolio: [xicay.dev](https://xicay.dev)
-- GitHub: [github.com/xicaaay](https://github.com/xicaaay)
-- Correo: [amilcar.xicay@indevelop.net](mailto:amilcar.xicay@indevelop.net)
-- Ubicación: Guatemala, Guatemala
+```ts
+const contact = {
+  portfolio: "https://xicay.dev",
+  github: "https://github.com/xicaaay",
+  email: "amilcar.xicay@indevelop.net",
+  location: "Guatemala, Guatemala"
+}
+```
 
 ---
 
 <div align="center">
-
-<strong>Desarrollo soluciones completas: desde la idea y la arquitectura hasta el despliegue y mantenimiento.</strong>
-
+  <strong>Desarrollo soluciones completas: desde la idea y la arquitectura hasta el despliegue y mantenimiento.</strong>
 </div>
