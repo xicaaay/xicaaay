@@ -1,0 +1,47 @@
+<svg width="1080" height="220" viewBox="0 0 1080 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Flujo de desarrollo full stack</title>
+  <desc id="desc">Una señal animada recorre interfaz, API, lógica, datos, integraciones y despliegue.</desc>
+  <style>
+    :root { --bg:#fafaf7; --ink:#090a0b; --muted:#606466; --line:#d6d6d0; --accent:#2488ef; --node:#f3f3ef; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#111415; --ink:#f3f4ef; --muted:#a8adae; --line:#303638; --accent:#469df4; --node:#090b0c; }
+    }
+    text { font-family:"JetBrains Mono",Consolas,monospace; }
+    .route { stroke-dasharray: 8 9; animation: route 18s linear infinite; }
+    .packet { animation: packet 7s cubic-bezier(.45,0,.55,1) infinite; }
+    .packet-2 { animation-delay: -3.5s; }
+    .node { animation: node-pulse 7s ease-in-out infinite; }
+    .n2 { animation-delay: 1.16s } .n3 { animation-delay: 2.32s } .n4 { animation-delay: 3.48s }
+    .n5 { animation-delay: 4.64s } .n6 { animation-delay: 5.8s }
+    @keyframes route { to { stroke-dashoffset: -340; } }
+    @keyframes packet {
+      0% { transform:translateX(0); opacity:0 } 5% { opacity:1 }
+      95% { opacity:1 } 100% { transform:translateX(840px); opacity:0 }
+    }
+    @keyframes node-pulse {
+      0%,12%,100% { stroke:var(--line) } 6% { stroke:var(--accent) }
+    }
+    @media (prefers-reduced-motion: reduce) { * { animation:none!important } }
+  </style>
+  <rect x="1" y="1" width="1078" height="218" rx="18" fill="var(--bg)" stroke="var(--line)" stroke-width="2"/>
+  <text x="36" y="42" fill="var(--accent)" font-size="11" font-weight="700" letter-spacing="1.8">SYSTEM / FLOW</text>
+  <text x="1044" y="42" text-anchor="end" fill="var(--muted)" font-size="10" letter-spacing="1.2">END-TO-END DELIVERY</text>
+  <path class="route" d="M120 117H960" fill="none" stroke="var(--line)" stroke-width="2"/>
+  <g fill="var(--accent)">
+    <circle class="packet" cx="120" cy="117" r="5"/>
+    <circle class="packet packet-2" cx="120" cy="117" r="5"/>
+  </g>
+  <g fill="var(--node)" stroke="var(--line)" stroke-width="2">
+    <circle class="node n1" cx="120" cy="117" r="26"/><circle class="node n2" cx="288" cy="117" r="26"/>
+    <circle class="node n3" cx="456" cy="117" r="26"/><circle class="node n4" cx="624" cy="117" r="26"/>
+    <circle class="node n5" cx="792" cy="117" r="26"/><circle class="node n6" cx="960" cy="117" r="26"/>
+  </g>
+  <g fill="var(--ink)" font-size="11" font-weight="700" text-anchor="middle">
+    <text x="120" y="121">UI</text><text x="288" y="121">API</text><text x="456" y="121">LOGIC</text>
+    <text x="624" y="121">DATA</text><text x="792" y="121">EXT</text><text x="960" y="121">SHIP</text>
+  </g>
+  <g fill="var(--muted)" font-size="10" text-anchor="middle" letter-spacing=".8">
+    <text x="120" y="172">INTERFAZ</text><text x="288" y="172">SERVICIOS</text><text x="456" y="172">NEGOCIO</text>
+    <text x="624" y="172">DATOS</text><text x="792" y="172">INTEGRAR</text><text x="960" y="172">DEPLOY</text>
+  </g>
+</svg>

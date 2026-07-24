@@ -1,0 +1,94 @@
+<svg width="1080" height="310" viewBox="0 0 1080 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Perfil profesional escrito como código</title>
+  <desc id="desc">El contenido del archivo portfolio.ts aparece carácter por carácter.</desc>
+  <style>
+    :root {
+      --bg: #fafaf7; --header: #ecece7; --line: #d6d6d0; --plain: #24292f;
+      --muted: #8d9294; --keyword: #8250df; --property: #0550ae;
+      --string: #0a3069; --punctuation: #57606a; --accent: #2488ef;
+      --glow: #dcebfb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111415; --header: #171a1b; --line: #303638; --plain: #e6edf3;
+        --muted: #73797b; --keyword: #ff7b72; --property: #79c0ff;
+        --string: #a5d6ff; --punctuation: #8b949e; --accent: #58a6ff;
+        --glow: #10253a;
+      }
+    }
+    text { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace; text-rendering: geometricPrecision; }
+    .code { font-size: 15px; font-weight: 500; }
+    .line { opacity: 0; animation: show .01s linear forwards; }
+    .l1,.m1 { animation-delay: .2s } .l2,.m2 { animation-delay: 1.0s }
+    .l3,.m3 { animation-delay: 1.8s } .l4,.m4 { animation-delay: 2.7s }
+    .l5,.m5 { animation-delay: 3.8s } .l6,.m6 { animation-delay: 4.8s }
+    .l7,.m7 { animation-delay: 5.7s }
+    .m1 { animation-name: type-1 } .m2 { animation-name: type-2 }
+    .m3 { animation-name: type-3 } .m4 { animation-name: type-4 }
+    .m5 { animation-name: type-5 } .m6 { animation-name: type-6 }
+    .m7 { animation-name: type-7 }
+    .m1,.m2,.m3,.m4,.m5,.m6,.m7 {
+      width: 0;
+      animation-duration: .72s;
+      animation-timing-function: steps(28, end);
+      animation-fill-mode: forwards;
+    }
+    .m4,.m5 { animation-duration: .95s; animation-timing-function: steps(42, end); }
+    .caret { opacity: 0; animation: caret-enter .01s 6.45s forwards, caret .72s steps(1) 6.45s infinite; }
+    .status { animation: pulse 1.8s ease-in-out infinite; }
+    @keyframes show { to { opacity: 1 } }
+    @keyframes type-1 { to { width: 300px } } @keyframes type-2 { to { width: 360px } }
+    @keyframes type-3 { to { width: 440px } } @keyframes type-4 { to { width: 690px } }
+    @keyframes type-5 { to { width: 670px } } @keyframes type-6 { to { width: 580px } }
+    @keyframes type-7 { to { width: 45px } }
+    @keyframes caret-enter { to { opacity: 1 } }
+    @keyframes caret { 50% { opacity: 0 } }
+    @keyframes pulse { 0%,100% { opacity: .35 } 50% { opacity: 1 } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .line, .caret { opacity: 1; }
+      .m1 { width:300px }.m2 { width:360px }.m3 { width:440px }.m4 { width:690px }
+      .m5 { width:670px }.m6 { width:580px }.m7 { width:45px }
+    }
+  </style>
+  <defs>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 160) rotate(180) scale(430 260)">
+      <stop stop-color="var(--glow)" stop-opacity=".8"/>
+      <stop offset="1" stop-color="var(--glow)" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c1"><rect class="m1" x="62" y="65" height="25"/></clipPath>
+    <clipPath id="c2"><rect class="m2" x="62" y="95" height="25"/></clipPath>
+    <clipPath id="c3"><rect class="m3" x="62" y="125" height="25"/></clipPath>
+    <clipPath id="c4"><rect class="m4" x="62" y="155" height="25"/></clipPath>
+    <clipPath id="c5"><rect class="m5" x="62" y="185" height="25"/></clipPath>
+    <clipPath id="c6"><rect class="m6" x="62" y="215" height="25"/></clipPath>
+    <clipPath id="c7"><rect class="m7" x="62" y="245" height="25"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1078" height="308" rx="18" fill="var(--bg)" stroke="var(--line)" stroke-width="2"/>
+  <rect x="1" y="1" width="1078" height="308" rx="18" fill="url(#ambient)"/>
+  <path d="M1 54h1078" stroke="var(--line)"/>
+  <path d="M48 55v254" stroke="var(--line)" opacity=".65"/>
+  <circle cx="24" cy="27" r="4.5" fill="#469DF4"/>
+  <circle cx="41" cy="27" r="4.5" fill="none" stroke="var(--muted)"/>
+  <circle cx="58" cy="27" r="4.5" fill="none" stroke="var(--muted)"/>
+  <text x="540" y="31" text-anchor="middle" fill="var(--muted)" font-size="10" letter-spacing="1.5">PORTFOLIO.TS</text>
+  <circle class="status" cx="1024" cy="27" r="3.5" fill="var(--accent)"/>
+  <text x="1036" y="30" fill="var(--muted)" font-size="8">WRITING</text>
+
+  <g fill="var(--muted)" font-size="9" text-anchor="middle">
+    <text x="24" y="82">01</text><text x="24" y="112">02</text><text x="24" y="142">03</text>
+    <text x="24" y="172">04</text><text x="24" y="202">05</text><text x="24" y="232">06</text><text x="24" y="262">07</text>
+  </g>
+
+  <g class="code">
+    <text class="line l1" x="68" y="82" clip-path="url(#c1)"><tspan fill="var(--keyword)">const</tspan><tspan fill="var(--plain)"> developer </tspan><tspan fill="var(--punctuation)">= {</tspan></text>
+    <text class="line l2" x="88" y="112" clip-path="url(#c2)"><tspan fill="var(--property)">name</tspan><tspan fill="var(--punctuation)">: </tspan><tspan fill="var(--string)">"Amilcar Xicay"</tspan><tspan fill="var(--punctuation)">,</tspan></text>
+    <text class="line l3" x="88" y="142" clip-path="url(#c3)"><tspan fill="var(--property)">role</tspan><tspan fill="var(--punctuation)">: </tspan><tspan fill="var(--string)">"Full Stack Developer"</tspan><tspan fill="var(--punctuation)">,</tspan></text>
+    <text class="line l4" x="88" y="172" clip-path="url(#c4)"><tspan fill="var(--property)">focus</tspan><tspan fill="var(--punctuation)">: [</tspan><tspan fill="var(--string)">"products"</tspan><tspan fill="var(--punctuation)">, </tspan><tspan fill="var(--string)">"APIs"</tspan><tspan fill="var(--punctuation)">, </tspan><tspan fill="var(--string)">"automation"</tspan><tspan fill="var(--punctuation)">],</tspan></text>
+    <text class="line l5" x="88" y="202" clip-path="url(#c5)"><tspan fill="var(--property)">approach</tspan><tspan fill="var(--punctuation)">: </tspan><tspan fill="var(--string)">"idea → architecture → deploy"</tspan><tspan fill="var(--punctuation)">,</tspan></text>
+    <text class="line l6" x="88" y="232" clip-path="url(#c6)"><tspan fill="var(--property)">status</tspan><tspan fill="var(--punctuation)">: </tspan><tspan fill="var(--string)">"listo para crear"</tspan></text>
+    <text class="line l7" x="68" y="262" clip-path="url(#c7)"><tspan fill="var(--punctuation)">}</tspan></text>
+    <text class="caret" x="82" y="262" fill="var(--accent)">▋</text>
+  </g>
+</svg>
