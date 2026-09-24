@@ -123,24 +123,7 @@ Además del stack técnico, aporto criterio, constancia y autonomía para conver
 
 Actualmente trabajo como **Desarrollador Web Full Stack** en Code Crypto Marketing, participando en el ciclo completo de producto: análisis, arquitectura, interfaz, implementación, integración, despliegue y mantenimiento.
 
-## `06 / ACTIVIDAD`
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=xicaaay&theme=github_dark" alt="Resumen de actividad de GitHub de Amilcar Xicay" width="100%" />
-
-<br />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=xicaaay&theme=github_dark" alt="Estadísticas generales de GitHub" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=xicaaay&theme=github_dark" alt="Repositorios por lenguaje" width="49%" />
-
-<br />
-
-<img src="./assets/contribution-name-v2.gif" alt="Animación del nombre Xicay dentro de un panel de contribuciones" width="100%" />
-
-</div>
-
-## `07 / AHORA`
+## `06 / AHORA`
 
 ```yaml
 enfoque:
