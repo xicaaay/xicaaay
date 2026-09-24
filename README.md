@@ -111,19 +111,9 @@ Google Workspace, mensajería, servicios externos, Railway y mantenimiento de en
 
 Además del stack técnico, aporto criterio, constancia y autonomía para convertir requerimientos en soluciones que el equipo pueda comprender, utilizar y mantener.
 
-## `05 / TRAYECTORIA`
+## `05 / AHORA`
 
-```text
-2024                2024                         2026                    HOY
-  ●──────────────────●────────────────────────────●──────────────────────●
-  Becario             Desarrollador Web Jr.       Full Stack Developer
-  Sep — Nov           Nov 2024 — Feb 2026         Feb 2026 — Actualidad
-                       Code Crypto Marketing
-```
-
-Actualmente trabajo como **Desarrollador Web Full Stack** en Code Crypto Marketing, participando en el ciclo completo de producto: análisis, arquitectura, interfaz, implementación, integración, despliegue y mantenimiento.
-
-## `06 / AHORA`
+Actualmente trabajo como **Desarrollador Web Full Stack** en Code, participando en el ciclo completo de producto: análisis, arquitectura, interfaz, implementación, integración, despliegue y mantenimiento.
 
 ```yaml
 enfoque:
