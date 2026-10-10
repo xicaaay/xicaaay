@@ -61,12 +61,6 @@ Google Workspace, mensajería, servicios externos, Railway y mantenimiento de en
 </tr>
 </table>
 
-<div align="center">
-
-<img src="./assets/system-flow.svg" alt="Flujo animado de desarrollo: interfaz, API, lógica, datos, integraciones y despliegue" width="100%" />
-
-</div>
-
 ## `03 / STACK TÉCNICO`
 
 <div align="center">
