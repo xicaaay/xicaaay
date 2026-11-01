@@ -115,7 +115,7 @@ estado: "listo para crear"</code></pre>
 </td>
 <td width="36%" align="center" valign="middle">
 
-<img src="./assets/terminal-sticker.svg" alt="Terminal animada de Amilcar" width="310" />
+<img src="./assets/terminal-sticker-v2.webp" alt="Terminal en estilo sticker" width="310" />
 
 </td>
 </tr>
