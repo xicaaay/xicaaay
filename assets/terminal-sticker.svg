@@ -1,0 +1,63 @@
+<svg width="560" height="390" viewBox="0 0 560 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Terminal interactiva</title>
+  <desc id="desc">Terminal de desarrollo con comandos que aparecen de forma animada.</desc>
+  <style>
+    .shell {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: float 4s ease-in-out infinite;
+      transition: transform .3s ease, filter .3s ease;
+    }
+    svg:hover .shell { animation-play-state: paused; transform: rotate(-1deg) scale(1.035); }
+    .line { opacity: 1; animation: type .28s ease-out both; }
+    .l1 { animation-delay: .25s; }
+    .l2 { animation-delay: .7s; }
+    .l3 { animation-delay: 1.15s; }
+    .l4 { animation-delay: 1.6s; }
+    .cursor { animation: blink .8s steps(1, end) infinite; }
+    .signal { animation: signal 1.7s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0) rotate(2deg); } 50% { transform: translateY(-8px) rotate(.5deg); } }
+    @keyframes type { from { opacity: 0; transform: translateX(-7px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes blink { 0%,48% { opacity: 1; } 49%,100% { opacity: 0; } }
+    @keyframes signal { 0%,100% { opacity: .38; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .shell, .line, .cursor, .signal { animation: none; opacity: 1; }
+    }
+  </style>
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="15" stdDeviation="11" flood-color="#000000" flood-opacity=".48"/>
+    </filter>
+  </defs>
+
+  <g class="shell" filter="url(#shadow)">
+    <path d="M67 51L479 41L506 66L496 315L472 341L89 348L55 320L67 287L57 251L67 214L58 176L68 138L59 92L67 51Z" fill="#EEF4ED"/>
+    <rect x="79" y="66" width="397" height="258" rx="25" fill="#06121D"/>
+    <rect x="79" y="66" width="397" height="52" rx="25" fill="#01203F"/>
+    <rect x="79" y="94" width="397" height="24" fill="#01203F"/>
+    <circle cx="111" cy="92" r="8" fill="#FF6B5E"/>
+    <circle cx="139" cy="92" r="8" fill="#E9C775"/>
+    <circle class="signal" cx="167" cy="92" r="8" fill="#45E48B"/>
+    <text x="442" y="99" fill="#A8C3FF" font-family="'Courier New', monospace" font-size="13" font-weight="700" text-anchor="end">guatemala / dev</text>
+
+    <g font-family="'Courier New', monospace" font-size="17" font-weight="700">
+      <g class="line l1">
+        <text x="109" y="160" fill="#45E48B">$</text>
+        <text x="133" y="160" fill="#EEF4ED">npm run create</text>
+      </g>
+      <g class="line l2">
+        <text x="109" y="201" fill="#A8C3FF">→</text>
+        <text x="137" y="201" fill="#EEF4ED">analyze · design · build</text>
+      </g>
+      <g class="line l3">
+        <text x="109" y="242" fill="#A8C3FF">→</text>
+        <text x="137" y="242" fill="#EEF4ED">integrate · test · deploy</text>
+      </g>
+      <g class="line l4">
+        <text x="109" y="285" fill="#45E48B">✓</text>
+        <text x="137" y="285" fill="#EEF4ED">system ready</text>
+        <rect class="cursor" x="270" y="269" width="11" height="20" fill="#45E48B"/>
+      </g>
+    </g>
+  </g>
+</svg>
